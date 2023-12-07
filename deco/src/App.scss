@@ -1,10 +1,17 @@
 .App {
-  text-align: center;
-}
+  //Navbar
+  .header {
+    background-color: #9e9897;
+    font-family: "Courier New", Courier, monospace;
+    color: whitesmoke;
+    padding: 10px;
+    margin: auto;
+  }
 
-$font-stack: Helvetica, sans-serif;
-$primary-color: red;
-.login {
-  font: 100% $font-stack;
-  color: $primary-color;
+  $font-stack: Helvetica, sans-serif;
+  $primary-color: red;
+  .login {
+    font: 100% $font-stack;
+    color: $primary-color;
+  }
 }
