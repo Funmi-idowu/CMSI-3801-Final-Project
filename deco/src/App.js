@@ -1,19 +1,13 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPenNib } from "@fortawesome/free-solid-svg-icons";
-import { faTrash } from "@fortawesome/free-solid-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import Button from "react-bootstrap/Button";
+import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./components/NavBar";
+import Tasks from "./components/Tasks";
 import "./App.scss";
 
 function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
-      <FontAwesomeIcon icon={faPenNib} />
-      <FontAwesomeIcon icon={faEnvelope} />
-      <FontAwesomeIcon icon={faTrash} />
-      <Button className="login">Login</Button>
+      <Tasks></Tasks>
     </div>
   );
 }
